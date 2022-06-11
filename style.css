@@ -1,5 +1,8 @@
-body{
-    background-color:#faa825;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .calculator_container{
     width: 100%;
@@ -20,6 +23,12 @@ body{
     10px 10px 15px rgba(0,0,0,0.5);
 }
 
+.top-container {
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
 .calculator_input_display{
     width: 288px;
     height: 120px;
@@ -74,3 +83,67 @@ body{
     display: flex;
     flex-direction: row;
 }
+
+/*** button size all  using multiple classes ****/
+.calculator_button_FixedSize_Top,
+.calculator_button_Fixedsize_Number,
+.calculator_button_FixedSize_bottom,
+.calculator_button_FixedSize_Orange{
+    width: 60px;
+    height: 60px;
+    border-radius:60px;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content: center;
+    font-size: 25px;
+    margin:5px;
+    
+
+}
+
+
+/****color give to button**********/
+.calculator_button_FixedSize_Top{
+    background-color: rgb(224,240,255);
+}
+.calculator_button_Fixedsize_Number{
+    background-color: rgb(145,145,145);
+}
+.calculator_button_FixedSize_bottom{
+    background-color:rgb(145,145,145);
+
+}
+.calculator_button_FixedSize_Orange{
+    background-color:orange;
+    color:#fff;
+    font-size: 30px;
+}
+
+.calculator_button_left_Number{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 218px;
+    color:white;
+}
+.calculator_button_left3_bottom{
+    display: flex;
+    flex-direction: row;
+    color:white;
+}
+#calculator_button_FixedSize_bottom_zero{
+    width: 130px;
+    align-items: left;
+    text-align: left;
+}
+.calculator_button_Right{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
