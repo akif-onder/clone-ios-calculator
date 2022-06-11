@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .calculator_container{
     width: 100%;
     height: 100%;
@@ -25,10 +26,12 @@
 
 .top-container {
     display: flex;
-    height: 250px;
+    height: 50px;
     justify-content: space-between;
     padding: 0 20px;
+    color: #fff;
   }
+
 .calculator_input_display{
     width: 288px;
     height: 120px;
@@ -37,7 +40,6 @@
     justify-content: center;
     align-items:center;
 }
-
 #calculator_input_Number_Previews{
     width: 275px;
     height:100%;
@@ -60,17 +62,12 @@
     height: 100px;
     outline:none;
     background-color:#000;
-    color:black;
+    color:#fff;
     border:none;
     font-size: 40px;
     overflow-y: hidden;
     text-align: right;
     resize: none;
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 30px 0 0 0;
-    color:#dbd8d3;
-
 }
 
 /**button design ***********/
@@ -103,6 +100,7 @@
 }
 
 
+
 /****color give to button**********/
 .calculator_button_FixedSize_Top{
     background-color: rgb(224,240,255);
@@ -119,6 +117,9 @@
     color:#fff;
     font-size: 30px;
 }
+
+
+
 
 .calculator_button_left_Number{
     display:flex;
@@ -142,6 +143,8 @@
     display: flex;
     flex-direction: column;
 }
+
+
 
 
 
